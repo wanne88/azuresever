@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from pyChatGPT import ChatGPT
-
+import openai
 app = Flask(__name__)
 
 @app.route('/')
